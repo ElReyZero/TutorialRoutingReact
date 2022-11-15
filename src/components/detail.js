@@ -13,7 +13,6 @@ export default function Detail() {
             .then((data) => data.json())
             .then((data) => {
                 let mascota = data.find(mascota => mascota.id === parseInt(params.mascotaId));
-                console.log(data)
                 setMascota(mascota);
             });
     }, [params]);
