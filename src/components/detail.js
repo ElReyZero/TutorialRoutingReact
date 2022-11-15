@@ -20,7 +20,7 @@ export default function Detail() {
     return (
         <Col>
             <h1>{mascota.nombre}</h1>
-            <img src={mascota.foto} alt={"Foto de "+mascota.nombre} height="600vh"></img>
+            <img src={mascota.foto} alt={"Foto de " |+ mascota.nombre} height="600vh"></img>
             <h2>{mascota.raza}</h2>
         </Col>
     );
